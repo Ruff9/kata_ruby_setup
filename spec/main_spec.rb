@@ -1,4 +1,4 @@
-require_relative '../main'
+require_relative '../lib/main'
 
 describe 'Setup' do
   it 'is working' do
