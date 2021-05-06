@@ -1,5 +1,4 @@
-# A sample Guardfile
-# More info at https://github.com/guard/guard#readme
+notification :off
 
 guard :rspec, cmd: "bundle exec rspec" do
   watch(%r{^spec/.+_spec\.rb$})
