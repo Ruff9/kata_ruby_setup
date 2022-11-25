@@ -2,6 +2,8 @@
 
 Basic kata setup for Ruby with Rspec and Guard.
 
+To start a kata, clone this repo and then :
+
 ## With Ruby installed
 
 ```
@@ -18,4 +20,4 @@ $ docker build -t kata-ruby-"$(date +%F)" .
 $ docker run --mount type=bind,source="$(pwd)",target=/app -it kata-ruby-"$(date +%F)"
 ```
 
-Guard is launched, you can write code and specs will be launched.
+Guard is launched, you can write code and specs will run.
