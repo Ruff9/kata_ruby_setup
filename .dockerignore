@@ -1,0 +1,6 @@
+.git/
+tmp/*
+.ruby-gemset
+.ruby-version
+README.md
+Gemfile.lock
