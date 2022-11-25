@@ -1,4 +1,4 @@
-# Kata Setup
+# Kata Ruby Setup
 
 Basic kata setup for Ruby with Rspec and Guard.
 
